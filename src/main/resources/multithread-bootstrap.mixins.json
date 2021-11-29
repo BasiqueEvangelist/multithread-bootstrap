@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.basiqueevangelist.multithreadbootstrap.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BootstrapMixin",
+    "BuiltinRegistriesAccessor",
+    "BuiltinRegistriesMixin",
+    "RegistryAccessor",
+    "RegistryMixin",
+    "SpawnEggItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

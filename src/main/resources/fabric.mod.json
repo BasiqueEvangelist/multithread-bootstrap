@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "multithread-bootstrap",
+  "version": "${version}",
+
+  "name": "Multithread Bootstrap",
+  "description": "concern",
+  "authors": [
+    "BasiqueEvangelist"
+  ],
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "mm:early_risers": [
+      "me.basiqueevangelist.multithreadbootstrap.MultithreadBootstrap"
+    ]
+  },
+  "mixins": [
+    "multithread-bootstrap.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  }
+}
